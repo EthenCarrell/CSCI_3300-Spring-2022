@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 300%;
+    color: green;
+}
+
+p {
+    font-size: 14pt;
+}
+
+li {
+    font-size: 20px;
+}
+
+/* 
+    This is a note about my CSS file. Ignored by CSS
+*/
+
+#welcome-message {
+    text-decoration: line-through;
+}
+
+#my-box {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 50px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.my-list {
+    color: cornflowerblue;
+}
+
+/*
+    Box Model
+    - Nearly everything is a rectangle. WEbsites are organized into rectangular elements knows as "Boxes" or "Blocks"
+    - Headers, sections, footers, headings, paragraphs
+
+    Box
+    - 4 parts
+    By default, a box is the width of the content
+    1.) Border: Width of the lines going around the box
+    2.) Padding: Space btw the box and the content inside the box
+    3.) Margin: Space between the box and wahtever is holding this box
+    4.) Width: Internal distance btw the two vertical sides of the borders
+    **Add all pixels for size
+*/
