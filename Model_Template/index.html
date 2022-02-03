@@ -6,7 +6,8 @@
 
         <script>
             function echoText(){
-                let echoValue = document.myform.echo.value;
+                //let echoValue = document.myform.echo.value;
+                let echoValue = document.getElementById("echofield").value;
                 document.getElementById("results").innerHTML = echoValue;
             }
         </script>
@@ -16,7 +17,7 @@
         <hr>
         <form name="myform" action="javascript:echoText()">
             <label for="echofield">Echo this text:</label>
-            <input type="text" name="echo" id="echofield">
+            <input type="text" id="echofield">
             <input type="submit">
         </form>
 
